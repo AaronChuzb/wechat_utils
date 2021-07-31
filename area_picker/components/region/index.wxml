@@ -1,0 +1,9 @@
+<picker 
+  mode="multiSelector"
+  bindchange="onChoose" 
+  bindcolumnchange="onChange"
+  value="{{ regionIndex }}"
+  range="{{ regionArray }}"
+  range-key="name">
+  <slot></slot>
+</picker>

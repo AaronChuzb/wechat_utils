@@ -1,0 +1,6 @@
+<view class="wrap" hidden="{{!show}}">
+  <view class="mask {{visible ? 'mask-show' : ''}}" bindtap="onClose"></view>
+  <view class="box" id="modal-box" animation="{{animationData}}">
+    <slot></slot>
+  </view>
+</view>

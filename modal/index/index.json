@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ui-modal": "/components/modal/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ui-region": "/components/region/index"
+  },
+  "navigationBarTitleText": "省市区选择",
+  "disableScroll": true
+}

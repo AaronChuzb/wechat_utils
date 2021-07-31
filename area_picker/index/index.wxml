@@ -1,0 +1,14 @@
+<view class="page">
+  <ui-region column="{{ 2 }}" bindChange="onChange" bindChoose="onChoose" data-index="1">
+    <view class="picker">
+      <view>选择省市: </view>
+      <view>{{ address }}</view>
+    </view>
+  </ui-region>
+  <ui-region column="{{ 3 }}" bindChange="onChange" bindChoose="onChoose" data-index="2">
+    <view class="picker">
+      <view>选择省市区: </view>
+      <view>{{ address1 }}</view>
+    </view>
+  </ui-region>
+</view>

@@ -1,0 +1,4 @@
+<view bindtap="showModal" >打开弹窗</view>
+<ui-modal show="{{ show }}" bindClose="onClose">
+  <view>我是弹窗内容</view>
+</ui-modal>
