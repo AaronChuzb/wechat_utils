@@ -1,0 +1,9 @@
+<scroll-view
+  style="height:{{ height }}"
+  scroll-y="{{ true }}"   
+  refresher-enabled="{{ isRefresh }}" 
+  bindscrolltolower="more"
+  bindrefresherrefresh="refresh"
+  refresher-triggered="{{ triggered }}">
+  <slot></slot>
+</scroll-view>

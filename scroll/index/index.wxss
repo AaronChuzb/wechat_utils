@@ -1,0 +1,9 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.item{
+  height: 40vh;
+  text-align: center;
+  background: cornflowerblue;
+}

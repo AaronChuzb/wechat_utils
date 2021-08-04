@@ -1,0 +1,9 @@
+<view class="page">
+  <ui-scroll ui-scroll height="{{ '80vh' }}" isRefresh="{{ true }}" isTriggered="{{ triggered }}" hasMore="{{ hasMore }}" bindGetData="getData">
+    <view wx:for="{{ dataList }}" wx:key="index">
+      <view wx:for="{{ item }}" wx:key="child" class="item">
+        {{ item }}
+      </view>
+    </view>
+  </ui-scroll>
+</view>
